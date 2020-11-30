@@ -19,18 +19,29 @@ h1, h2, h3, h4, h5, h6 {
   color: #818181;
 }
 
+.text-less-white {
+  color: rgba(255, 255, 255, .7);
+}
+
 .logo {
   font-weight: bold;
   font-size: 1.2em;
 }
 
 .h-full {
-  height: 34em;
+  height: 36em;
+}
+
+.h-half {
+  height: 18em;
 }
 
 .bg-darker {
-  background: #171932;
   background: #183153;
+}
+
+.text-darker {
+  color: #183153;
 }
 
 
@@ -53,7 +64,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 1.8em;
+  font-size: 1.5em;
 }
 
 h1 span {

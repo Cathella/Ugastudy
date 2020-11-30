@@ -15,7 +15,7 @@
       <div class="container">
         <div class="d-flex justify-content-between align-items-center">
           <div class="d-flex align-items-center">
-            <a href="#" class="logo mr-4">UgaStudy</a>
+            <a href="#" class="logo text-darker mr-4">UgaStudy</a>
             <a href="#" class="mr-2"><i class="fas fa-bars dark-grey-text"></i></a>
             <a href="#" class="text-dark">Courses</a>
           </div>
@@ -27,22 +27,22 @@
           <div class="">
             <a href="#" class="mr-3"><i class="far fa-bell dark-grey-text"></i></a>
             <a href="#" class="mr-3"><i class="fas fa-archive dark-grey-text"></i></a>
-            <a href="#" class="text-primary ml-3">Login here</a>
+            <a href="#" class="ml-3 text-darker">Login here</a>
           </div>
         </div>
       </div>
     </nav>
     <nav class="container py-3 d-flex justify-content-center">
-      <a href="#" class="nav-link">Promo Courses</a>
-      <a href="#" class="nav-link">Gift Cards</a>
-      <a href="#" class="nav-link">Benefits</a>
-      <a href="#" class="nav-link">Courses for Groups</a>
-      <a href="#" class="nav-link">Become an Author</a>
+      <a href="#" class="nav-link text-darker">Promo Courses</a>
+      <a href="#" class="nav-link text-darker">Gift Cards</a>
+      <a href="#" class="nav-link text-darker">Benefits</a>
+      <a href="#" class="nav-link text-darker">Courses for Groups</a>
+      <a href="#" class="nav-link text-darker">Become an Author</a>
     </nav>
   </header>
 
   <main>
-    <div class="container d-flex pb-4">
+    <div class="container-fluid d-flex">
       <div class="header-bg-img w-50 bg-primary p-5 h-full d-flex flex-column justify-content-end">
         <h2 class="text-white mb-4">
           Watch. Listen. Practise.<br>
@@ -50,18 +50,33 @@
         </h2>
         <button class="btn bg-darker w-50 py-2 mb-3 rounded-0 text-white shadow">Start Now<i class="fas fa-arrow-right ml-4"></i></button>
       </div>
-      <div class="w-50 bg-darker p-5 h-full d-flex flex-column justify-content-end">
-        <h1 class="yellow-text mb-4 w-75 ml-5">
-          <span>1000</span><br>Revision Videos.<br><br>
-          <span>800</span><br>Subscribed Students
-        </h1>
-        <button class="btn ml-5 w-50 bg-primary py-2 my-3 rounded-0 text-white shadow">Create Account<i class="fas fa-arrow-right ml-4"></i></button>
+      <div class="w-50 bg-darker h-full d-flex flex-column">
+        <div class="bg-primary h-half">
+          <div class="d-flex">
+            <div class="w-50 h-half p-5">
+              <h1 class="text-white mb-4">
+                <span>1000</span><br>Revision Videos.
+              </h1>
+              <button class="btn bg-darker py-2 my-3 rounded-0 text-white shadow">Create Account<i class="fas fa-arrow-right ml-4"></i></button>
+            </div>
+            <div class="w-50 bg-light h-half course-bg shadow"></div>
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="w-50 bg-light h-half course-bg-2 shadow"></div>
+          <div class="h-half p-5 w-50">
+            <h1 class="yellow-text mb-4">
+              <span>800</span><br>Subscribed Students.
+            </h1>
+            <button class="btn bg-primary py-2 my-3 rounded-0 text-white shadow">Create Account<i class="fas fa-arrow-right ml-4"></i></button>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="bg-light py-5 mt-5">
+    <div class="bg-light py-5">
       <div class="container">
         <div class="d-flex justify-content-between pt-5 mb-5">
-          <h3>Popular Tutorials</h3>
+          <h3 class="text-darker">Popular Tutorials</h3>
           <button class="btn bg-white shadow px-4 border py-2 rounded-0">View all subjects<i class="fas fa-arrow-right ml-4"></i></button>
         </div>
         <div class="row mb-5">
@@ -72,7 +87,7 @@
                   <small>Debate</small>
                   <small>Discussion</small>
                 </div>
-                <h5>GMOs: Solution or Problem?</h5>
+                <h5 class="text-primary">GMOs: Solution or Problem?</h5>
                 <small>By: <span class="text-muted">Catherine. N</span></small>
               </div>
               <div class="bg-primary py-5 px-3 text-center course-bg">
@@ -89,7 +104,7 @@
                   <small>Debate</small>
                   <small>Discussion</small>
                 </div>
-                <h5>GMOs: Solution or Problem?</h5>
+                <h5 class="text-primary">GMOs: Solution or Problem?</h5>
                 <small>By: <span class="text-muted">Catherine. N</span></small>
               </div>
               <div class="bg-primary py-5 px-3 text-center course-bg-2">
@@ -106,7 +121,7 @@
                   <small>Debate</small>
                   <small>Discussion</small>
                 </div>
-                <h5>GMOs: Solution or Problem?</h5>
+                <h5 class="text-primary">GMOs: Solution or Problem?</h5>
                 <small>By: <span class="text-muted">Catherine. N</span></small>
               </div>
               <div class="bg-primary py-5 px-3 text-center course-bg">
@@ -123,7 +138,7 @@
                   <small>Debate</small>
                   <small>Discussion</small>
                 </div>
-                <h5>GMOs: Solution or Problem?</h5>
+                <h5 class="text-primary">GMOs: Solution or Problem?</h5>
                 <small>By: <span class="text-muted">Catherine. N</span></small>
               </div>
               <div class="bg-primary py-5 px-3 text-center course-bg-2">
@@ -137,6 +152,50 @@
       </div>
     </div>
   </main>
+
+  <footer class="py-5 bg-darker">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3">
+          <a href="#" class="logo yellow-text mr-4">UgaStudy</a>
+        </div>
+        <div class="col-md-3">
+          <h6 class="text-white mb-4">LOREM</h6>
+          <div class="d-flex flex-column">
+            <a href="#" class="text-less-white mb-3">Link One</a>
+            <a href="#" class="text-less-white mb-3">Link Two</a>
+            <a href="#" class="text-less-white mb-3">Link Three</a>
+            <a href="#" class="text-less-white mb-3">Link Four</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h6 class="text-white mb-4">DOLORES</h6>
+          <div class="d-flex flex-column">
+            <a href="#" class="text-less-white mb-3">Link One</a>
+            <a href="#" class="text-less-white mb-3">Link Two</a>
+            <a href="#" class="text-less-white mb-3">Link Three</a>
+            <a href="#" class="text-less-white mb-3">Link Four</a>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <h6 class="text-white mb-4">NEWSLETTER</h6>
+          <form action="#">
+            <input type="text" placeholder="Your email" class="rounded-0 py-2 form-control">
+            <button class="btn btn-primary form-control py-2 mt-3 shadow rounded-0"type="submit">
+              Subscribe
+              <i class="fas fa-arrow-right ml-4"></i>
+            </button>
+          </form>
+          <div class="d-flex mt-5">
+            <a href="#" class="text-less-white mr-3"><i class="fab fa-lg fa-facebook-f"></i></a>
+            <a href="#" class="text-less-white mr-3"><i class="fab fa-lg fa-twitter"></i></a>
+            <a href="#" class="text-less-white mr-3"><i class="fab fa-lg fa-youtube"></i></a>
+            <a href="#" class="text-less-white mr-3"><i class="fab fa-lg fa-linkedin-in"></i></a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
   <script
     src="https://kit.fontawesome.com/7290f27402.js"
