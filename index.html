@@ -5,194 +5,158 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>UgaStudy</title>
   <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap" rel="stylesheet"><link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-  <header>
-    <nav class="py-4 bg-light">
-      <div class="container">
-        <div class="d-flex justify-content-between align-items-center">
-          <div class="d-flex align-items-center">
-            <a href="#" class="logo text-darker mr-4">UgaStudy</a>
-            <a href="#" class="mr-2"><i class="fas fa-bars dark-grey-text"></i></a>
-            <a href="#" class="text-dark">Courses</a>
-          </div>
-          <div class="w-50">
-            <form action="#" method="get">
-              <input class="form-control py-3" type="text" placeholder="What do you want to learn today?">
+  <header class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light container border-bottom py-3">
+      <a class="navbar-brand logo text-purple" href="index.html">UgaStudy</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Subscriptions</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Become a Tutor</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+        </ul>
+        <a href="#" class="my-2 my-lg-0">Login</a>
+        <a href="#" class="my-2 my-lg-0 ml-5">Create Account</a>
+      </div>
+    </nav>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 ml-auto">
+          <div class="py-5">
+            <h1 class="mt-5 mb-3">Get Instant Help</h1>
+            <p class="mb-5 ">Online Tutoring. Homework Help. Test Preparation.</p>
+            <form action="#" method="get" class="form-inline mb-5">
+              <input type="text" placeholder="Search for any topic" class="form-control">
+              <button class="btn border bg-light ml-3">Search</button>
             </form>
-          </div>
-          <div class="">
-            <a href="#" class="mr-3"><i class="far fa-bell dark-grey-text"></i></a>
-            <a href="#" class="mr-3"><i class="fas fa-archive dark-grey-text"></i></a>
-            <a href="#" class="ml-3 text-darker">Login here</a>
-          </div>
-        </div>
-      </div>
-    </nav>
-    <nav class="container py-3 d-flex justify-content-center">
-      <a href="#" class="nav-link text-darker">Promo Courses</a>
-      <a href="#" class="nav-link text-darker">Gift Cards</a>
-      <a href="#" class="nav-link text-darker">Benefits</a>
-      <a href="#" class="nav-link text-darker">Courses for Groups</a>
-      <a href="#" class="nav-link text-darker">Become an Author</a>
-    </nav>
-  </header>
-
-  <main>
-    <div class="container-fluid d-flex">
-      <div class="header-bg-img w-50 bg-primary p-5 h-full d-flex flex-column justify-content-end">
-        <h2 class="text-white mb-4">
-          Watch. Listen. Practise.<br>
-          Learn new things everyday
-        </h2>
-        <button class="btn bg-darker w-50 py-2 mb-3 rounded-0 text-white shadow">Start Now<i class="fas fa-arrow-right ml-4"></i></button>
-      </div>
-      <div class="w-50 bg-darker h-full d-flex flex-column">
-        <div class="bg-primary h-half">
-          <div class="d-flex">
-            <div class="w-50 h-half p-5">
-              <h1 class="text-white mb-4">
-                <span>1000</span><br>Revision Videos.
-              </h1>
-              <button class="btn bg-darker py-2 my-3 rounded-0 text-white shadow">Create Account<i class="fas fa-arrow-right ml-4"></i></button>
-            </div>
-            <div class="w-50 bg-light h-half course-bg shadow"></div>
-          </div>
-        </div>
-        <div class="d-flex">
-          <div class="w-50 bg-light h-half course-bg-2 shadow"></div>
-          <div class="h-half p-5 w-50">
-            <h1 class="yellow-text mb-4">
-              <span>800</span><br>Subscribed Students.
-            </h1>
-            <button class="btn bg-primary py-2 my-3 rounded-0 text-white shadow">Create Account<i class="fas fa-arrow-right ml-4"></i></button>
           </div>
         </div>
       </div>
     </div>
-    <div class="bg-light py-5">
+  </header>
+
+  <main>
+    <div class="features py-5">
       <div class="container">
-        <div class="d-flex justify-content-between pt-5 mb-5">
-          <h3 class="text-darker">Popular Tutorials</h3>
-          <button class="btn bg-white shadow px-4 border py-2 rounded-0">View all subjects<i class="fas fa-arrow-right ml-4"></i></button>
+        <div class="text-center mb-5 pt-4">
+          <p>Features</p>
+          <h1>Get any question Answered</h1>
+        </div>
+        <div class="row">
+          <div class="col-md-4 border-right">
+            <div class="p-4">
+              <div class="mb-4">Icon</div>
+              <h3 class="pb-3">Online Tutoring</h3>
+              <p>Find a tutor anytime to help you understand any subject topic.</p>
+            </div>
+          </div>
+          <div class="col-md-4 border-right">
+            <div class="p-4">
+              <div class="mb-4">Icon</div>
+              <h3 class="pb-3">Homework Help</h3>
+              <p>Take short sessions to help you solve specific questions during your study.</p>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="p-4">
+              <div class="mb-4">Icon</div>
+              <h3 class="pb-3">Test Preparation</h3>
+              <p>Get help with standardized tests or examinations, like UNEB, Mocks.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="pricing py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5 pt-4">
+          <p class="text-uppercase">Pricing</p>
+          <h1>Subscribe to UgaStudy</h1>
         </div>
         <div class="row mb-5">
-          <div class="col-md-3">
-            <div class="card rounded-0 border-0 shadow">
-              <div class="py-2 px-3">
-                <div class="mb-3 text-muted">
-                  <small>Debate</small>
-                  <small>Discussion</small>
-                </div>
-                <h5 class="text-primary">GMOs: Solution or Problem?</h5>
-                <small>By: <span class="text-muted">Catherine. N</span></small>
-              </div>
-              <div class="bg-primary py-5 px-3 text-center course-bg">
-                <a href="#" class="text-white">
-                  <i class="far fa-2x my-4 fa-play-circle"></i>
-                </a>
-              </div>
+          <div class="col-md-4">
+            <div class="p-4 text-center border">
+              <div class="mb-4">Icon</div>
+              <h3 class="pb-3">One Term</h3>
+              <p>Academic Term.<br>Exp. 8/17/2020</p>
+              <h3 class="pb-3">Ugx. 15,000</h3>
+              <p>Streaming</p>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card rounded-0 border-0 shadow">
-              <div class="py-2 px-3">
-                <div class="mb-3 text-muted">
-                  <small>Debate</small>
-                  <small>Discussion</small>
-                </div>
-                <h5 class="text-primary">GMOs: Solution or Problem?</h5>
-                <small>By: <span class="text-muted">Catherine. N</span></small>
-              </div>
-              <div class="bg-primary py-5 px-3 text-center course-bg-2">
-                <a href="#" class="text-white">
-                  <i class="far fa-2x my-4 fa-play-circle"></i>
-                </a>
-              </div>
+          <div class="col-md-4">
+            <div class="p-4 text-center border">
+              <div class="mb-4">Icon</div>
+              <h3 class="pb-3">Two Terms</h3>
+              <p>Academic Term.<br>Exp. 8/17/2020</p>
+              <h3 class="pb-3">Ugx. 25,000</h3>
+              <p>Streaming</p>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card rounded-0 border-0 shadow">
-              <div class="py-2 px-3">
-                <div class="mb-3 text-muted">
-                  <small>Debate</small>
-                  <small>Discussion</small>
-                </div>
-                <h5 class="text-primary">GMOs: Solution or Problem?</h5>
-                <small>By: <span class="text-muted">Catherine. N</span></small>
-              </div>
-              <div class="bg-primary py-5 px-3 text-center course-bg">
-                <a href="#" class="text-white">
-                  <i class="far fa-2x my-4 fa-play-circle"></i>
-                </a>
-              </div>
+          <div class="col-md-4">
+            <div class="p-4 text-center border">
+              <div class="mb-4">Icon</div>
+              <h3 class="pb-3">Three Terms</h3>
+              <p>Academic Term.<br>Exp. 8/17/2020</p>
+              <h3 class="pb-3">Ugx. 35,000</h3>
+              <p>Streaming</p>
             </div>
           </div>
-          <div class="col-md-3">
-            <div class="card rounded-0 border-0 shadow">
-              <div class="py-2 px-3">
-                <div class="mb-3 text-muted">
-                  <small>Debate</small>
-                  <small>Discussion</small>
-                </div>
-                <h5 class="text-primary">GMOs: Solution or Problem?</h5>
-                <small>By: <span class="text-muted">Catherine. N</span></small>
-              </div>
-              <div class="bg-primary py-5 px-3 text-center course-bg-2">
-                <a href="#" class="text-white">
-                  <i class="far fa-2x my-4 fa-play-circle"></i>
-                </a>
-              </div>
-            </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="access py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5">
+            <h1 class="text-darker">Get Early Access to Our Beta</h1>
+          </div>
+          <div class="col-md-7">
+            <form action="#" method="get" class="form-inline mt-5">
+              <input type="text" placeholder="Your email address" class="form-control">
+              <button class="btn border bg-light ml-3">Search</button>
+            </form>
           </div>
         </div>
       </div>
     </div>
   </main>
 
-  <footer class="py-5 bg-darker">
+  <footer class="pt-5 pb-3">
     <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-          <a href="#" class="logo yellow-text mr-4">UgaStudy</a>
+      <div class="text-center mb-5 pt-4">
+        <p class="text-uppercase">contact us</p>
+      </div>
+      <div class="d-flex align-items-center justify-content-between border-bottom pb-4">
+        <div>Icon</div>
+        <div class="text-darker">
+          <h4>Namugongo, near Uganda Martys Anglican Church</h4>
         </div>
-        <div class="col-md-3">
-          <h6 class="text-white mb-4">LOREM</h6>
-          <div class="d-flex flex-column">
-            <a href="#" class="text-less-white mb-3">Link One</a>
-            <a href="#" class="text-less-white mb-3">Link Two</a>
-            <a href="#" class="text-less-white mb-3">Link Three</a>
-            <a href="#" class="text-less-white mb-3">Link Four</a>
-          </div>
+        <div>
+          <p>help@homeschool.ug</p>
         </div>
-        <div class="col-md-3">
-          <h6 class="text-white mb-4">DOLORES</h6>
-          <div class="d-flex flex-column">
-            <a href="#" class="text-less-white mb-3">Link One</a>
-            <a href="#" class="text-less-white mb-3">Link Two</a>
-            <a href="#" class="text-less-white mb-3">Link Three</a>
-            <a href="#" class="text-less-white mb-3">Link Four</a>
-          </div>
-        </div>
-        <div class="col-md-3">
-          <h6 class="text-white mb-4">NEWSLETTER</h6>
-          <form action="#">
-            <input type="text" placeholder="Your email" class="rounded-0 py-2 form-control">
-            <button class="btn btn-primary form-control py-2 mt-3 shadow rounded-0"type="submit">
-              Subscribe
-              <i class="fas fa-arrow-right ml-4"></i>
-            </button>
-          </form>
-          <div class="d-flex mt-5">
-            <a href="#" class="text-less-white mr-3"><i class="fab fa-lg fa-facebook-f"></i></a>
-            <a href="#" class="text-less-white mr-3"><i class="fab fa-lg fa-twitter"></i></a>
-            <a href="#" class="text-less-white mr-3"><i class="fab fa-lg fa-youtube"></i></a>
-            <a href="#" class="text-less-white mr-3"><i class="fab fa-lg fa-linkedin-in"></i></a>
-          </div>
-        </div>
+      </div>
+      <div class="pt-5 d-flex justify-content-between">
+        <a href="#" class="logo text-darker font-weight-bold">UgaStudy</a>
+        <p>Copyright &copy; 2020. HomeSchool-Ug. All Rights Reserved</p>
       </div>
     </div>
   </footer>
