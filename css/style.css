@@ -1,11 +1,10 @@
 * {
-  font-family: 'Rubik', sans-serif;
-  font-weight: 400;
+  font-family: 'Nunito', sans-serif;
+  font-weight: 600;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
-  font-family: 'DM Sans', sans-serif;
+  font-weight: 900;
 }
 
 .grey-text {
@@ -41,7 +40,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .logo {
-  font-size: 1.2em;
+  font-size: 1.5em;
+  font-weight: 900;
 }
 
 .bg-darker {
@@ -59,8 +59,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 3em;
-  letter-spacing: -3px;
+  font-size: 3.5em;
+  letter-spacing: -2px;
 }
 
 h1 span {
@@ -69,5 +69,16 @@ h1 span {
 
 .button-round {
   border-radius: 3em;
+}
+
+header {
+  height: 680px;
+  margin-bottom: 17em;
+}
+
+header img {
+  position: relative;
+  top: -50px;
+  border-radius: 0 0 0 3em;
 }
 
